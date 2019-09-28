@@ -57,7 +57,7 @@ namespace CreditCardFraudDetection
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Predict}/{id?}");
+                    template: "{controller=CreditCard}/{action=FraudPrediction}/{id?}");
             });
         }
     }
